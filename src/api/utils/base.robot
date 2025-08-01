@@ -71,5 +71,3 @@ Erro 401 por Falta de API Key
     ${json}=    To Json    ${response.content}
     Dictionary Should Contain Key    ${json}    error
     Should Be Equal    ${json.error}    Missing API key
-
-
